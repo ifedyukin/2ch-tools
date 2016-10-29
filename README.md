@@ -8,6 +8,7 @@ a, .a-link-emulator, .orange{color:#4EB1BA}
 .mess-post{color:#cfcfcf}
 a:hover{color:#3c9199}
 .reply-label, #title{color:#75c2c9 !important}
+.pace .pace-progress{background-color: #75c2c9 !important}
 a.board-banner{display:none !important}
 .moneymoneymoney{display:none !important}
 header hr{display:none}
