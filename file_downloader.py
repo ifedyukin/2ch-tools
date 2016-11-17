@@ -35,9 +35,9 @@ for element in reply["threads"][0]["posts"]:
 reply = input(colored("Download (Y/n): ","magenta"))
 print("")
 if (reply == "y" or reply == "Y"):
+	os.mkdir(directory)
+	os.chdir(directory)
 	for element in files:
-		os.mkdir(directory)
-		os.chdir(directory)
 		load = urllib.request.urlopen(domain + element["path"]).read()
 		f = open(element["name"], "wb")
 		f.write(load)
